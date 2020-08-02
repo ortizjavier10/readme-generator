@@ -39,7 +39,7 @@ const questions = [
             if (installtionInput) {
                 return true;
             } else {
-                console.log('Please enter ionstalltion instructions for your project!');
+                console.log('Please enter installation instructions for your project!');
                 return false;
             }
         }
@@ -58,7 +58,7 @@ const questions = [
         }
     },
     {
-        type: 'checkboxes',
+        type: 'checkbox',
         name: 'license',
         message:  'Please choose a license for your project. (Please choose at least one)',
         choices: ['MIT', 'ISC', 'GNU GPLv3', 'Apache License 2.0'],
@@ -112,25 +112,38 @@ const questions = [
 ];
 
 // function to write README file
-const writeToFile = (fileName, data) => {
-    return new Promise((resolve, reject) => {
-        fs.writeFile('./dist/readme.md', filename, err => {
-            if (err) {
-                reject(err);
-                return;
-            }
-            resolve({
-                ok: true, 
-                message: 'Readme created!'
-            });
-        });
-    });
-};
+// function writeToFile(fileName, data) {
+//     // return new Promise((resolve, reject) => {
+//         fs.writeFile(`./dist/${fileName}`, data, err => {
+//             if (err) {
+//                 reject(err);
+//                 return;
+//             }
+//             resolve({
+//                 ok: true, 
+//                 message: 'Readme created!'
+//             });
+//         });
+//     // });
+// }
+
+function writeToFile(fileName, markdown) {
+    fs.promises.writeFile(`./dist/${fileName}.md`, markdown);
+}
+
 
 // function to initialize program
 function init() {
+    const answers = inquirer.prompt(questions);
+    const fileName = questions.title;
+    const markdown = generateMarkdown(answers);
+    writeToFile(fileName, markdown);
+
+
 
 }
 
+
+
 // function call to initialize program
-init();
+init(questions);
