@@ -10,7 +10,7 @@ const questions = [
         name: 'title',
         message: 'What is the title of your project? (Required)',
         validate: titleInput => {
-            if (titleinput) {
+            if (titleInput) {
                 return true;
             } else {
                 console.log('Please enter a title for your project!');
@@ -61,7 +61,15 @@ const questions = [
         type: 'checkboxes',
         name: 'license',
         message:  'Please choose a license for your project. (Please choose at least one)',
-        choices: ['MIT', 'ISC', 'GNU GPLv3', 'Apache License 2.0']
+        choices: ['MIT', 'ISC', 'GNU GPLv3', 'Apache License 2.0'],
+        validate: licenseInput => {
+            if (licenseInput) {
+                return true;
+            } else {
+                console.log('Please choose at least one option!')
+                return false;
+            }
+        }
     },
     {
         type: 'input',
