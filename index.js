@@ -135,15 +135,6 @@ function writeToFile(fileName, markdown) {
 }
 
 
-// // function to initialize program
-// function init() {
-//     const answers = inquirer.prompt(questions);
-//     const fileName = 'readme';
-//     const markdown = generateMarkdown;
-//     writeToFile(fileName, answers);
-
-// }
-
 
 
 // // function call to initialize program
@@ -152,7 +143,7 @@ promptUser()
     .then(readmeData => {
         // console.log(readmeData);
         const pageMD = generateMarkdown(readmeData);
-        writeToFile('readme.md', pageMD);
+        writeToFile('readme', pageMD);
         console.log('Readme file created!')
     })
 

@@ -1,7 +1,7 @@
-# Redme Generator
+# Readme Generator
     ![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)
     ## Description
-    this project is for school and I sm proud of it 
+    This is a command line based readme generator.
 
     ## Table of Contents
     * [Installation](#installation)
@@ -14,29 +14,28 @@
     ## Installation
     To install this project, run the following command:
    
-    clone github and run npm install
+    clone and run npm i
    
 
     ## Usage
-    download and run npm i
+    open terminal, run node index and answer the questions
 
 
     ## License
     This Project can be used under MIT license.
 
-    ## Contribution
-    The following people contributed to this project:
-    big fixed.
+    ## Contribution Guidelines:
+    * 
 
 
     ## Tests
     To test the application please use:
     
-    npm test
+    
    
 
 
     ## Questions
-    If you have any question please check out my GitHub https://github.com/ortizjavier10 or email me at ortiz@ortiz.com .
+    If you have any question please check out my GitHub https://github.com/ortizjavier10 or email me at ortiz.javier10@gmail.com .
 
   
