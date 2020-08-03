@@ -22,6 +22,9 @@ npm install
 ## Usage
 Open a terminal window, type in "node index" and answer the questions. Once done the application will generate the ReadMe.
 
+## Sample
+Here is a sample readme
+
 
 ## License
 Readme Generator is licensed under the MIT License.
