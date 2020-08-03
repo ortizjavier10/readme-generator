@@ -1,6 +1,6 @@
 # Readme Generator
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
 ReadMe Generator is an application that generates readmes using the commanline. Simply answer some questions and it will automatically generate a readme for you. Try it on your next project!
