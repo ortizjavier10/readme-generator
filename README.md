@@ -23,7 +23,7 @@ npm install
 Open a terminal window, type in "node index" and answer the questions. Once done the application will generate the ReadMe.
 
 ## Sample
-Here is a sample readme
+Here is a sample readme https://github.com/ortizjavier10/readme-generator/blob/master/sample/sample-readme.md
 
 
 ## License
