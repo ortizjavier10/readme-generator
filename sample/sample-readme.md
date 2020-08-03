@@ -12,8 +12,10 @@ This is a command line based readme generator.
    * [Questions](#questions)
 
 ## Installation
-   
-clone and run npm i 
+Download application and run:
+```
+npm install
+```
 
 ## Usage
 open terminal, run node index and answer the questions
