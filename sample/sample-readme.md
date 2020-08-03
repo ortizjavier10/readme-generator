@@ -1,5 +1,5 @@
 # Readme Generator
-![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 ## Description
 This is a command line based readme generator.
 
