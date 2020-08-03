@@ -12,10 +12,8 @@ This is a command line based readme generator.
    * [Questions](#questions)
 
 ## Installation
-To install this project, run the following command:
    
-clone and run npm i
-   
+clone and run npm i 
 
 ## Usage
 open terminal, run node index and answer the questions
@@ -26,7 +24,6 @@ This Project can be used under MIT license.
 
 ## Contribution Guidelines:
  * 
-
 
 ## Tests
 To test the application please use:
